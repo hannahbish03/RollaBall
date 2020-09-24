@@ -10,8 +10,6 @@ public class PlayerController : MonoBehaviour
     private float movementX;
     private float movementY;
 
-
-
     // Start is called before the first frame update
     void Start()
     {
@@ -23,12 +21,13 @@ public class PlayerController : MonoBehaviour
     {
 
 
-        Vector2 movementvector = movementvalue.Get<Vector2>();
+        Vector2 movementVector = movementvalue.Get<Vector2>();
 
 
-        movementX = movementVector.X;
-        movementY = movementVector.Y;
+        movementX = movementVector.x;
+        movementY = movementVector.y;
     }
+
 
 
 
@@ -37,16 +36,16 @@ public class PlayerController : MonoBehaviour
 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
 
-        rb.AddForce(movementVector);
+        rb.AddForce(movement);
 
     }
 
 
-    {
+    
 
-      Vector3 movement 
+     
 
-    }
+    
 }
 
 
