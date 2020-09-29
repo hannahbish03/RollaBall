@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void Onmove(InputValue movementvalue)
+    void OnMove(InputValue movementvalue)
     {
 
 
@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour
     {
 
         Vector3 movement = new Vector3(movementX, 0.0f, movementY);
-
+        Debug.Log(movement);
         rb.AddForce(movement * speed);
 
     }
