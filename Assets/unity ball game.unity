@@ -753,6 +753,7 @@ GameObject:
   - component: {fileID: 921939922}
   - component: {fileID: 921939921}
   - component: {fileID: 921939920}
+  - component: {fileID: 921939924}
   m_Layer: 0
   m_Name: pickup
   m_TagString: Untagged
@@ -833,6 +834,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: -27.235, y: -20.62, z: -39.347}
+--- !u!114 &921939924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 921939919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b72cb512e88960045be279da35856a7a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1805090650
 GameObject:
   m_ObjectHideFlags: 0
