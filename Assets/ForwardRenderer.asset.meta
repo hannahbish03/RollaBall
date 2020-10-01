@@ -1,6 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/ForwardRenderer.asset.meta
+guid: 710d774b934b7c44f89a7809485e04ba
+NativeFormatImporter:
+=======
+guid: 4eaccfea2198bef4ab32a287c7c96499
+folderAsset: yes
+DefaultImporter:
+>>>>>>> 550df07d182530306336241baecea632e4038bf3:Assets/Materials/chip.meta
+=======
 guid: 7850e0eb480f3cf439d5e35795370282
 NativeFormatImporter:
+>>>>>>> 550df07d182530306336241baecea632e4038bf3
   externalObjects: {}
   mainObjectFileID: 0
   userData: 
