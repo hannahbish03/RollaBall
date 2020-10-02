@@ -21,7 +21,7 @@ public class PlayerController : MonoBehaviour
         rb = GetComponent<Rigidbody>();
     }
 
-    void OnMove(InputValue movementvalue)
+    void OnMove(InputValue movementValue)
     {
 
 
